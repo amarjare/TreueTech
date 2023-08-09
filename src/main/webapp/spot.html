@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Spots</title>
+    <style>
+        .parking-spot {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            display: inline-block;
+            margin: 5px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="parking-spot" onclick="toggleParkingSpot(1)">Spot 1</div>
+    <div class="parking-spot" onclick="toggleParkingSpot(2)">Spot 2</div>
+    <div class="parking-spot" onclick="toggleParkingSpot(3)">Spot 3</div>
+    <!-- Add more parking spots as needed -->
+    <script>
+        // JavaScript function to toggle the parking spot color
+        function toggleParkingSpot(spotNumber) {
+            var spot = document.getElementById('spot' + spotNumber);
+
+            if (spot.style.backgroundColor === 'green') {
+                spot.style.backgroundColor = 'red';
+                spot.onclick = null; // Disable further clicks
+            } else {
+                spot.style.backgroundColor = 'green';
+                spot.onclick = function() {
+                    toggleParkingSpot(spotNumber);
+                }; // Re-enable click event
+            }
+        }
+    </script>
+</body>
+</html>

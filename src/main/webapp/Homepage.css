@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#d12{
+	background-color: chartreuse;
+	height: 400px;
+	width:90%;
+	border:3px solid black;
+	border-radius: 5px;
+}
+.actions-container {
+    height: 360px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.action {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.action:hover {
+    background-color: #333;
+    color: #fff;
+}
+#how-it-works{
+	text-align: center;
+	background-color: chartreuse;
+	height: 400px;
+	width:300px;
+	font-size: 25px;
+	border:3px solid black;
+	border-radius: 5px;
+}
+#d2{
+	background-color: pink;
+	border:3px solid black;
+	border-radius: 5px;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 30px 20px;
+   	
+}
+.heading{
+	  padding :0px 320px;
+	  font-family:sans-serif;
+	  font-size: 40px;
+}
+#slideshow img {
+    height: 400px;
+    width: 600px;
+    display: none;
+}
+
+#slideshow img:first-child {
+    display: block;
+}
+header h1 {
+    margin: 0;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: ceter;
+}
+img{
+	border-radius: 15px;
+	border:3px solid black;
+	height:380px;
+	width:600px;
+}
+main {
+    padding: 0px;
+}
+
+.container {
+	height: 450px;width:1650;
+	background-color: lemonchiffon;
+	display:grid;
+	grid-template-columns: 650px 350px 390px ;
+	border: 3px solid lightcyan;
+	border-radius: 20px;
+	;
+    background-size:contain;
+    padding: 25px 100px 25px 60px;
+    background-position: center;
+    color:black;
+    text-align: center;
+   
+}
+.hero-content{
+	background-image: url(images/parkedcars.jpg);
+	background-size:cover;
+	opacity: 0.1;
+	background-repeat: no-repeat;
+	height: 400px;width: 1600px;
+    background-size:contain;
+    background-position: center;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.running-note-container {
+    overflow: hidden;
+    padding: 0px;
+    color:red;
+}
